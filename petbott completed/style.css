@@ -1,0 +1,149 @@
+
+
+.accordion-wrapper {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+  }
+
+  .faq-header {
+    background: #F57224;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+.product-filter:focus{
+  background-color: #F57224;
+  color: rgb(243, 233, 233);
+}
+  .ui-accordion .ui-accordion-content {
+    padding: 20px;
+    font-size: 0.95rem;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+  }
+
+  @media (max-width: 576px) {
+    .faq-header {
+      font-size: 1rem;
+      padding: 12px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+      padding: 15px;
+    }
+  }
+
+  #gallary{
+    margin: 100px;
+    margin-top: 75px;
+  }
+
+  #gallary h1{
+    font-size: 3.5rem;
+  }
+
+  .sal{
+    margin-left: 45px;
+    margin-bottom: 20px;
+  }
+
+
+  .img-fluid{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+  /* footer section */
+  .footer-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: #ffe600;
+}
+
+.social-icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 12px;
+  transition: color 0.3s ease, transform 0.2s;
+}
+.social-icon:hover {
+  color: #ffe600;
+  transform: scale(1.1);
+}
+
+.aboutimg{
+  background-size: cover;
+}
+
+
+
+   .contact-box {
+      background-color: #F57224;
+      padding: 40px 30px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .info-box {
+      background-color: #fff;
+      color: #000;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      height: 100%;
+    }
+    .info-box i {
+      font-size: 28px;
+      color:#F57224;
+      margin-bottom: 10px;
+    }
+    .form-control {
+      border-radius: 0;
+      border: none;
+      margin-bottom: 15px;
+    }
+    .submit-btn {
+      background-color: #1f1f26;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 0;
+    }
+    .submit-btn:hover {
+      background-color: #343a40;
+    }
+    a {
+      text-decoration: none;
+      color: #1dc9d7;
+    }
+
+    .outcolor{
+  border: 1px solid #F57224;
+  background: transparent;
+  
+}
+.outcolor:hover{
+  background-color: #F57224;
+  color: rgb(243, 233, 233);
+}
+
+
+.btn8{
+  background-color: #F57224;
+  color: white;
+}
+
+.text2{
+  color: #F57224;
+}
