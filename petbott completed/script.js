@@ -190,7 +190,7 @@ function All() {
   <div class="card-body">
     <h5 class="card-title">${p.name}</h5>
     <p class="card-text">${p.description}</p>
-    <a href="/imdetail.html?name=${p.name}&color=${p.color}&qty=${p.qty}&img=${p.Image}&price=${p.price}&description=${p.description}" class="btn btn8">learn More</a>
+    <a href="imdetail.html?name=${p.name}&color=${p.color}&qty=${p.qty}&img=${p.Image}&price=${p.price}&description=${p.description}" class="btn btn8">learn More</a>
   </div>
 </div>`;
     });
@@ -221,7 +221,7 @@ function jar() {
   <div class="card-body">
     <h5 class="card-title">${p.name}</h5>
     <p class="card-text">${p.description}</p>
-    <a href="/imdetail.html?name=${p.name}&color=${p.color}&qty=${p.qty}&img=${p.Image}&price=${p.price}&description=${p.description}" class="btn btn8">learn More</a>
+    <a href="imdetail.html?name=${p.name}&color=${p.color}&qty=${p.qty}&img=${p.Image}&price=${p.price}&description=${p.description}" class="btn btn8">learn More</a>
   </div>
 </div>`;
     });
@@ -235,7 +235,7 @@ function Glass() {
   <div class="card-body">
     <h5 class="card-title">${p.name}</h5>
     <p class="card-text">${p.description}</p>
-    <a href="/imdetail.html?name=${p.name}&color=${p.color}&qty=${p.qty}&img=${p.Image}&price=${p.price}&description=${p.description}" class="btn btn8">learnmore</a>
+    <a href="imdetail.html?name=${p.name}&color=${p.color}&qty=${p.qty}&img=${p.Image}&price=${p.price}&description=${p.description}" class="btn btn8">learnmore</a>
   </div>
 </div>`;
     });
