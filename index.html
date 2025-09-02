@@ -1,13 +1,369 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Escape</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Developer Portfolio — Your Name</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>hello</h1>
+
+  <!-- NAVBAR -->
+  <header class="navbar-custom">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="#">SALMAN RASHID</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color:var(--muted)"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="container">
+    <div id="particles-js"></div>
+    <div class="row hero-inner align-items-center">
+      <div class="col-lg-7">
+        <div class="hero-card">
+          <div class="d-flex align-items-center gap-3">
+            <img src="proimg/jGvLvS.jpg" alt="Headshot" class="profile-pic" loading="lazy">
+            <div>
+              <h1 style="margin-bottom:0.125rem">Hi, I'm <span style="color:var(--accent)">SALMAN RASHID</span></h1>
+              <p class="mb-1 text-light">Full-stack developer — building fast, accessible web apps</p>
+              <div style="font-size:1.02rem;">
+                <span class="typed-title">I'm a </span>
+                <span id="typed"></span>
+              </div>
+
+              <div class="mt-3">
+                <a href="#contact" class="btn btn-accent me-2">Contact Me</a>
+                <a href="#" class="btn btn-outline-accent">Download CV</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-3 text-light  small">Currently: Open to work • Available for freelance & full-time roles</div>
+        </div>
+
+        <!-- quick highlights -->
+        <div class="d-flex gap-3 mt-3">
+          <div class="p-3 about-card w-100">
+            <strong>2</strong> years experience
+          </div>
+          <div class="p-3 about-card w-100">
+            <strong>5+</strong> projects completed
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-5 mt-4 mt-lg-0">
+        <!-- Optional visual / hero image or code preview -->
+        <div class="project-card p-3">
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="flex:1">
+              <h5>Feature Project: The Renters</h5>
+              <p class="small text-light">We are making this project where everyone should get Cars bike and houses for rent</p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge-tech">React</span>
+                <span class="badge-tech">Node</span>
+                <span class="badge-tech">Postgres</span>
+              </div>
+
+              <div class="mt-3">
+                <a class="btn btn-sm btn-outline-accent" href="#contact">Hire Me</a>
+              </div>
+            </div>
+            <div style="width:200px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h2>About Me</h2>
+        <p class="text-light">I'm a developer who loves turning ideas into delightful, high-performance web applications. My focus is on maintainable code, good UX, and fast load times.</p>
+
+        <ul class="list-unstyled">
+          <li><strong>Location:</strong> Karachi, Pakistan</li>
+          <li><strong>Availability:</strong> Open to freelance & remote</li>
+          <li><strong>Contact:</strong>@salmanb799gamil.com@gmail.com</li>
+        </ul>
+
+      </div>
+      <div class="col-lg-6">
+        <div class="p-3 about-card">
+          <h5>What I do</h5>
+          <p class="small text-light">I build responsive web apps with a focus on performance and accessibility.</p>
+          <ul>
+            <li>Frontend: HTML, CSS, JavaScript, React, Bootstrap</li>
+            <li>Backend: Node.js, Express, PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container small">
+    <h2>Skills</h2>
+    <p class="text-light small">A selection of my most-used technologies and tools.</p>
+
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <h6>Frontend</h6>
+        <div class="mb-3">React <small class="text-light">(90%)</small>
+          <div class="skill-bar mt-2"><span style="width:90%"></span></div>
+        </div>
+        <div class="mb-3">JavaScript <small class="text-light">(92%)</small>
+          <div class="skill-bar mt-2"><span style="width:92%"></span></div>
+        </div>
+        <div class="mb-3">CSS/Design <small class="text-light">(82%)</small>
+          <div class="skill-bar mt-2"><span style="width:82%"></span></div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h6>Backend</h6>
+        <div class="mb-3">Node.js <small class="text-light">(85%)</small>
+          <div class="skill-bar mt-2"><span style="width:85%"></span></div>
+        </div>
+        <div class="mb-3">Databases <small class="text-light">(78%)</small>
+          <div class="skill-bar mt-2"><span style="width:78%"></span></div>
+        </div>
+        <div class="mb-3">DevOps <small class="text-light">(65%)</small>
+          <div class="skill-bar mt-2"><span style="width:65%"></span></div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <p class="text-light small">Here you can view my projects </p>
+
+    <div class="row g-4 mt-3">
+
+      <!-- Project Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="project-card p-3 h-100 d-flex flex-column">
+          <img class="project-thumb" src="proimg/amazon.png" alt="Project 1" loading="lazy">
+          <div class="mt-3 d-flex justify-content-between align-items-start">
+            <div>
+              <h5>Project One</h5>
+              <p class="small text-light">This is my frist project I have recreated the Amazon clone With full of fashion </p>
+              <div class="mt-2">
+                <span class="badge-tech">HTML</span>
+                <span class="badge-tech">CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+            <div class="small text-light">2025</div>
+            <div>
+              <a class="btn btn-sm btn-outline-accent me-2" href="https://codewithsalman12.github.io/my-projects/amazon/" target="_blank">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="project-card p-3 h-100 d-flex flex-column">
+          <img class="project-thumb" src="proimg/tsflix.png" alt="Project 2" loading="lazy">
+          <div class="mt-3">
+            <h5>Project Two</h5>
+            <p class="small text-light">I have created ts flix so that everyone can get movies for free</p>
+            <div class="mt-2">
+              <span class="badge-tech">HTML</span>
+              <span class="badge-tech">CSS</span>
+              <span class="badge-tech">JavaScript</span>
+              <span class="badge-tech">BACKEND</span>
+            </div>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+            <div class="small text-light">2025</div>
+            <div>
+              <a class="btn btn-sm btn-outline-accent me-2" href="https://ts-flix.free.nf/">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="project-card p-3 h-100 d-flex flex-column">
+          <img class="project-thumb" src="proimg/netflix-clone.png" alt="Project 3" loading="lazy">
+          <div class="mt-3">
+            <h5>Project Three</h5>
+            <p class="small text-light">I Remake the netflix just for fun and practice</p>
+            <div class="mt-2">
+              <span class="badge-tech">HTML</span>
+              <span class="badge-tech">CSS</span>
+            </div>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+            <div class="small text-light">2025</div>
+            <div>
+              <a class="btn btn-sm btn-outline-accent me-2" href="https://codewithsalman12.github.io/my-projects/netflix%20clone/">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Project Card 4 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="project-card p-3 h-100 d-flex flex-column">
+          <img class="project-thumb" src="proimg/pett.png" alt="Project 4" loading="lazy">
+          <div class="mt-3">
+            <h5>Project Four</h5>
+            <p class="small text-light">Pettbottle is a website just for bottle jars and classes</p>
+            <div class="mt-2">
+              <span class="badge-tech">HTML</span>
+              <span class="badge-tech">CSS</span>
+              <span class="badge-tech">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+            <div class="small text-light">2025</div>
+            <div>
+              <a class="btn btn-sm btn-outline-accent me-2" href="https://codewithsalman12.github.io/my-projects/petbott%20completed/">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Project Card 5 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="project-card p-3 h-100 d-flex flex-column">
+          <img class="project-thumb" src="proimg/walkaura.png" alt="Project 5" loading="lazy">
+          <div class="mt-3">
+            <h5>Project Five</h5>
+            <p class="small text-light">WalkAura is shoe website you can get stylish shoes</p>
+            <div class="mt-2">
+              <span class="badge-tech">HTML</span>
+              <span class="badge-tech">CSS</span>
+              <span class="badge-tech">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+            <div class="small text-light">2021</div>
+            <div>
+              <a class="btn btn-sm btn-outline-accent me-2" href="#">Demo</a>
+              <a class="btn btn-sm btn-accent" href="#">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+
+      <div class="col-md-6 col-lg-4">
+        <article class="project-card p-3 h-100 d-flex flex-column">
+          <img class="project-thumb" src="https://via.placeholder.com/600x360" alt="Project 6" loading="lazy">
+          <div class="mt-3">
+            <h5>Project Six</h5>
+            <p class="small text-light">Short description and results if available.</p>
+            <div class="mt-2">
+              <span class="badge-tech">Svelte</span>
+              <span class="badge-tech">Supabase</span>
+            </div>
+          </div>
+
+          <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+            <div class="small text-light">2023</div>
+            <div>
+              <a class="btn btn-sm btn-outline-accent me-2" href="#">Demo</a>
+              <a class="btn btn-sm btn-accent" href="#">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="container small">
+    <h2>Contact</h2>
+    <p class="text-light small">Interested in working together? Fill the form and I'll get back to you.</p>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <form id="contactForm" novalidate>
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Please enter your name" id="name" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Please enter a valid email." id="email" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" placeholder="Please write a short message" rows="5" id="message" required></textarea>
+            <div class="invalid-feedback">Please write a short message.</div>
+          </div>
+          <button class="btn btn-accent" type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="p-3 about-card">
+          <h5>Get in touch</h5>
+          <p class="small text-light">You can also reach me on social media or email at <a href="mailto:salmanb799gamil.com@gmail.com">salmanb799gamil.com@gmail.com</a></p>
+          <div class="d-flex gap-2 mt-2">
+            <a class="btn btn-outline-accent" href="https://github.com/codewithsalman12" target="_blank"><i class="fa fa-github me-2"></i>GitHub</a>
+            <a class="btn btn-outline-accent" href="#" target="_blank"><i class="fa fa-linkedin me-2"></i>LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>© <span id="year"></span> Salman</div>
+      <div class="small text-light">Built with ❤️ • Clean, responsive & accessible</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
