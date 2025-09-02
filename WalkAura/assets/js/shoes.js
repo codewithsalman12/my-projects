@@ -1,7 +1,7 @@
 const shoes = [
   {
     name: "AirZoom Runner",
-    img: "my-projects/WalkAura/assets/images/man shoes/shoes3.png",
+    img: "/my-projects/WalkAura/assets/images/man shoes/shoes3.png",
     gender: "man",
     description: "The AirZoom Runner is built for performance with an ultra-light mesh upper that enhances airflow, keeping your feet cool and dry even during long runs. Its advanced sole provides superior grip on both wet and dry surfaces, while the cushioned midsole reduces impact for a smoother stride. Perfect for athletes and casual joggers who want speed without sacrificing comfort.",
     price: 920,
@@ -10,7 +10,7 @@ const shoes = [
   },
   {
     name: "CloudFlex Pro",
-    img: "my-projects/WalkAura/assets/images/women shoes/168e985c6d5d6575c0e3e87e6eea0c3d.jpg",
+    img: "/my-projects/WalkAura/assets/images/women shoes/168e985c6d5d6575c0e3e87e6eea0c3d.jpg",
     gender: "women",
     description: "The CloudFlex Pro combines everyday fashion with high-performance features. Designed with ultra-soft cushioning, these sneakers adapt to your movement for effortless comfort whether you’re at the gym, on a walk, or spending a busy day on your feet. With its modern design and breathable lining, this shoe is perfect for women seeking style, support, and reliability in one package.",
     price: 1100,
