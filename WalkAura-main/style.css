@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  padding: 80px 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero img {
+  max-height: 250px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.1rem;
+}
+.hero .btn {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+/* Shop box */
+.shop-box {
+  background: #000;
+  color: #fff;
+  padding: 40px;
+  text-align: left;
+  border-radius: 0;
+  height: 100%;
+}
+.shop-box a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Banner (kids, contact, about, etc.) */
+.banner {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 80px 0;
+}
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Promo block (men, women) */
+.promo-block {
+  background: #e0e0e0; /* override with #f2f2f2 for women if needed */
+  padding: 80px 30px;
+  text-align: left;
+}
+.promo-block h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.promo-block p {
+  font-size: 1.1rem;
+}
+.promo-block .btn {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+/* Category card */
+.category-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Product card */
+.product-card {
+  text-align: center;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  background: #ddd;
+  height: 220px;
+}
+
+/* Product details */
+.product-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+.btn-add {
+  padding: 10px 25px;
+  font-size: 1rem;
+}
+.product-details {
+  padding: 60px 0;
+}
+.product-rating i {
+  color: gold;
+}
+
+/* Mailing box */
+.mailing-box {
+  text-align: center;
+  padding: 60px 0;
+}
+.mailing-box p {
+  font-size: 1.1rem;
+}
+.mailing-box .btn {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+/* Contact page */
+.form-control,
+.btn {
+  border-radius: 0.75rem;
+}
+.contact-info i {
+  font-size: 1.5rem;
+  color: #0d6efd;
+  margin-right: 10px;
+}
+
+/* About page */
+.about-section {
+  padding: 60px 0;
+}
+.about-img {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.values i {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+}
+.footer-social i {
+  font-size: 1.4rem;
+  margin-right: 15px;
+}
