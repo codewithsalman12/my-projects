@@ -60,9 +60,9 @@ const projects = [
     title: "CampusConnect",
     description: "It is a fully responsive react project i have created for techwiz competition in here you;ll be aware of the collage events",
     year: "2025",
-    img: "",
+    img: "campusconnect.png",
     tech: ["JavaScript", "HTML", "React"],
-    demo: "https://charming-cranachan-026a6a.netlify.app/"
+    demo: "http://aptechmetrostargate.com:136/"
   }
   
 ];
