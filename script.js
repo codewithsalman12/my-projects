@@ -60,7 +60,7 @@ const projects = [
     title: "CampusConnect",
     description: "It is a fully responsive react project i have created for techwiz competition in here you;ll be aware of the collage events",
     year: "2025",
-    img: "proming/campusconnect.png",
+    img: "proimg/campusconnect.png",
     tech: ["JavaScript", "HTML", "React"],
     demo: "http://aptechmetrostargate.com:136/"
   }
