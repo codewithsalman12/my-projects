@@ -55,7 +55,16 @@ const projects = [
     img: "proimg/WorldAtlas.png",
     tech: ["JavaScript", "HTML", "React"],
     demo: "https://charming-cranachan-026a6a.netlify.app/"
+  },
+    {
+    title: "CampusConnect",
+    description: "It is a fully responsive react project i have created for techwiz competition in here you;ll be aware of the collage events",
+    year: "2025",
+    img: "",
+    tech: ["JavaScript", "HTML", "React"],
+    demo: "https://charming-cranachan-026a6a.netlify.app/"
   }
+  
 ];
 
 // === Render Projects Dynamically ===
