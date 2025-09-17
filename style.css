@@ -107,6 +107,11 @@ section.small{padding:3rem 0}
 
 .project-thumb{width:100%; height:160px; object-fit:cover; border-radius:var(--card-radius)  var(--card-radius) 0 0;}
 
+/* 🔥 Special feature card: only text (no image area) */
+.project-card.feature-card .project-thumb {
+  display: none;
+}
+
 .badge-tech{
   background:rgba(255,255,255,0.04);
   border-radius:999px;
@@ -134,5 +139,5 @@ footer{padding:2.25rem 0; color:var(--muted); border-top:1px solid rgba(255,255,
 /* Responsive tweaks */
 @media (max-width:768px){
   .profile-pic{width:100px;height:100px}
-  .project-thumb{height:140px}
+  .project-thumb{height:140px}  
 }
